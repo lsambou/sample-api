@@ -10,10 +10,9 @@ info:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   x-logo:
-    url: https://redocly.github.io/openapi-template/logo.png
+    url: https://doc.propulse-lab.com/2023/05/pro_formulaire/proformsv2.svg
   description: >
-    This is an **example** API to demonstrate features of the OpenAPI
-    specification.
+    Schema de l'API utilisé par **Pro-Formulaire** dans sa version publique
 
     # Introduction
 
@@ -39,6 +38,12 @@ info:
     interfaces have done for lower-level programming, OpenAPI removes the
     guesswork in calling the service.
 tags:
+  - name: Products
+    description: Products management
+  - name: Cancellation
+    description: Cancellation management
+  - name: Offers
+    description: Offers management
   - name: Echo
     description: Example echo operations.
   - name: User
